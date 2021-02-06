@@ -10,7 +10,7 @@ This particular bot is developed to interface with the bot application deployed 
 It serves as a proxy between Genesys Widget chat client and Azure bot, and provides seemless transformation of native Microsoft Bot Framework Activities to Genesys Widget messages. 
 Only text messages are supported as a part of this implementation.
 
-##Implementation hints
+## Implementation hints
 
 Issues with Maven:
 ------------------
@@ -68,6 +68,7 @@ Microsoft TLS CA 2
 54:d9:d2:02:39:08:0c:32:31:6e:d9:ff:98:0a:48:98:8f:4a:df:2d
 
 >keytool -import -trustcacerts -file "ms_tls_ca_2.cer"  -alias ms_tls_ca_2 -keystore $JAVA_HOME/lib/security/cacerts
+
 >keytool -list -keystore cacerts
 
 
